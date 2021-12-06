@@ -7,6 +7,7 @@ import Update_User from './Components/Update_User'
 import Add_Reviews from './Components/Add_Reviews'
 import Products from './Components/Products'
 import Orders from './Components/Orders';
+import Cart from './Components/Cart';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="/add_reviews"  element={<Add_Reviews />} />
           <Route path="/products"  element={<Products />} />
           <Route path="/orders"  element={<Orders />} />
+          <Route path="/cart"  element={<Cart />} />
         
 
       </Routes>
